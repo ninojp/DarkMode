@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarkMode</title>
+    <!-- fonte  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <!-- fonte  -->
     <link rel="stylesheet" href="main.css">
     <script src="main.js" defer></script>
 </head>
 <body>
-    <section class="gridMain">
-        <div id="botao">
-            <button type="button" id="btnBotao"></button>
+    <section class="flexConteiner">
+        <div id="divBotao">
+            <input id="btn" type="button">
+            <label for="btn" class="mudar-tema"></label>
+            <!-- <button type="button">
+                <img src="" alt="">
+            </button> -->
         </div>
         <div id="divImg">
-            <figure id="figImg">
-                <img src="" alt="">
-                <figcaption>
-                    <h1 id="titPg">O inverno está chegando</h1>
-                </figcaption>
-            </figure>
+            <div class="trono"></div>
+            <p>O inverno está chegando</p>
         </div>
     </section>
 </body>
